@@ -1,0 +1,34 @@
+.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.social-media-link {
+			margin: 20px;
+		}
+
+		.social-media-link img {
+			width: 150px;
+			height: 150px;
+			transition: transform .2s;
+		}
+
+		.social-media-link img:hover {
+			transform: scale(1.1);
+		}
+		iframe {
+			width: 100%;
+			height: 400px;
+			margin: 20px 0;
+		}
+		h1 {
+  text-shadow: 2px 2px 5px red;
+		}
+      
+h2 {
+ color: white;
+  text-shadow: 2px 2px 4px #000000;
+		}
